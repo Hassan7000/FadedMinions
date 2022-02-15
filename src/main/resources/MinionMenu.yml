@@ -1,0 +1,116 @@
+Settings:
+  Main-Minion-Menu-Name: '&8FadedMinions'
+  Main-Minion-Menu-Size: 9
+  Minion-Tier-Menu-Name: '&6&l{minion} minion'
+  Minion-Tier-Menu-Size: 9
+  Minion-Menu-Name: '&6&l{minion} minion | Tier {tier}'
+  Minion-Menu-Size: 54
+
+Control-Button:
+  Next-Page-Item:
+    Material: 'ARROW'
+    Name: '&aNext Page'
+    Lore:
+      - '&c{current_page}&f/&a{next_page}'
+  Back-Page-Item:
+    Material: 'ARROW'
+    Name: '&cPrevious Page'
+    Lore:
+      - '&c{current_page}&f/&a{previous_page}'
+  Information-Item:
+    Material: 'BOOK'
+    Name: '&7Current Page: &a{current_page}'
+    Lore:
+      - 'something here'
+  Upgrade-Item:
+    Material: 'BOOK'
+    Name: '&6Upgrade all button'
+    Lore:
+      - '&7Upgrade all your minion in this tier'
+
+Main-Minion-Menu:
+  1:
+    Type: 'MINION_ITEM'
+    Material: 'COAL_BLOCK'
+    Name: '&7Coal Minion'
+    Lore:
+      - '&7Click to view your coal minions'
+    Minion-Inventory: 'coal'
+    Slot: 0
+  2:
+    Type: 'MINION_ITEM'
+    Material: 'IRON_BLOCK'
+    Name: '&7Iron Minion'
+    Lore:
+      - '&7Click to view your iron minion'
+    Minion-Inventory: 'iron'
+    Slot: 1
+  3:
+    Type: 'COLLECT_ALL'
+    Material: 'BOOK'
+    Name: '&7Collect all tokens from your minions'
+    Lore:
+      - '&7You can collect &f{collect} &7tokens'
+    Slot: 2
+  4:
+    Type: 'STATIC_ITEM'
+    Material: 'GLASS'
+    Name: '&7DOES NOTHING'
+    Lore:
+      - '&7DOES NOTHING'
+    Slot: 3
+
+Minion-Menu:
+  coal:
+    1:
+      Type: 'TIER_ITEM'
+      Material: 'BARRIER'
+      Name: 'Tier 1 coal minions'
+      Lore:
+        - 'Click to view your tier 1 minions'
+        - '&7You have {amount} minions in tier 1'
+      Tier: 1
+      Slot: 0
+    2:
+      Type: 'TIER_ITEM'
+      Material: 'BARRIER'
+      Name: 'Tier 2 coal minions'
+      Lore:
+       - 'Click to view your tier 1 minions'
+       - '&7You have {amount} minions in tier 2'
+      Tier: 2
+      Slot: 1
+    3:
+      Type: 'TIER_ITEM'
+      Material: 'BARRIER'
+      Name: 'Tier 3 coal minions'
+      Lore:
+        - 'Click to view your tier 1 minions'
+        - '&7You have {amount} minions in tier 3'
+      Tier: 3
+      Slot: 2
+    4:
+      Type: 'TIER_ITEM'
+      Material: 'BARRIER'
+      Name: 'Tier 4 coal minions'
+      Lore:
+        - 'Click to view your tier 1 minions'
+        - '&7You have {amount} minions in tier 4'
+      Tier: 4
+      Slot: 3
+    5:
+      Type: 'TIER_ITEM'
+      Material: 'BARRIER'
+      Name: 'Tier 5 coal minions'
+      Lore:
+        - 'Click to view your tier 1 minions'
+        - '&7You have {amount} minions in tier 5'
+      Tier: 5
+      Slot: 4
+    6:
+      Type: 'COLLECT_SINGLE'
+      Material: 'BOOK'
+      Name: 'Collect all coal minions'
+      Lore:
+        - '&7You can collect &f{collect} &7tokens'
+      Slot: 5

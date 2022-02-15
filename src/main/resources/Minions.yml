@@ -1,0 +1,104 @@
+Minions:
+  #This is how the minion in the gui would look like
+  coal: #This will be the name of the minion
+    Material: 'COAL_BLOCK'
+    Name: '&7Coal minion'
+    Lore:
+      - '&6&lSTATS - &8(&fTIER {tier}&8)'
+      - '&7You get &f{tokens} &7every &f{timer} &7seconds'
+      - '&7Cost to upgrade: &f{next_upgrade_cost} &7tokens'
+      - '&7Current Tokens: &f{current_tokens} tokens'
+      - '&7(Shift-Left-Click) To upgrade the minion'
+      - ''
+      - '&cINFOMARTION'
+      - '&7Every time you upgrade a minion the minion will go into the next tier'
+    Tiers:
+      1:
+        #Set this to true if the tier is your first tier
+        First-Rank: true
+        Price: 100
+        #The timer is in seconds and the timer is many seconds before you get more tokens
+        Timer: 20
+        Tokens-To-Generate: 20000
+      2:
+        Price: 200
+        #The timer is in seconds and the timer is many seconds before you get more tokens
+        Timer: 20
+        Tokens-To-Generate: 40000
+      3:
+        Price: 300
+        Timer: 20
+        Tokens-To-Generate: 50000
+      4:
+        Price: 400
+        Timer: 20
+        Tokens-To-Generate: 60000
+        Last-Rank: true
+  iron:
+    Material: 'IRON_BLOCK'
+    Name: '&7Iron minion'
+    Lore:
+      - '&6&lSTATS - &8(&fTIER {tier}&8)'
+      - '&7You get &f{tokens} &7every &f{timer} &7seconds'
+      - '&7Cost to upgrade: &f{next_upgrade_cost} &7tokens'
+      - '&7Current Tokens: &f{current_tokens} tokens'
+      - '&7(Shift-Left-Click) To upgrade the minion'
+      - ''
+      - '&cINFOMARTION'
+      - '&7Every time you upgrade a minion the minion will go into the next tier'
+    Tiers:
+      1:
+        #Set this to true if the tier is your first tier
+        Default-Rank: true
+        Price: 100
+        #The timer is in seconds and the timer is many seconds before you get more tokens
+        Timer: 20
+        Tokens-To-Generate: 20000
+      2:
+        Price: 200
+        #The timer is in seconds and the timer is many seconds before you get more tokens
+        Timer: 20
+        Tokens-To-Generate: 40000
+      3:
+        Price: 300
+        Timer: 20
+        Tokens-To-Generate: 50000
+      4:
+        Price: 400
+        Timer: 20
+        Tokens-To-Generate: 60000
+        Last-Rank: true
+  gold:
+    Material: 'GOLD_BLOCK'
+    Name: '&7Gold minion'
+    Lore:
+      - '&6&lSTATS - &8(&fTIER {tier}&8)'
+      - '&7You get &f{tokens} &7every &f{timer} &7seconds'
+      - '&7Cost to upgrade: &f{next_upgrade_cost} &7tokens'
+      - ''
+      - '&7(Shift-Left-Click) To upgrade the minion'
+      - ''
+      - '&cINFOMARTION'
+      - '&7Every time you upgrade a minion the minion will go into the next tier'
+    Tiers:
+      1:
+        #Set this to true if the tier is your first tier
+        Default-Rank: true
+        Price: 100
+        #The timer is in seconds and the timer is many seconds before you get more tokens
+        Timer: 20
+        Tokens-To-Generate: 20000
+      2:
+        Price: 200
+        #The timer is in seconds and the timer is many seconds before you get more tokens
+        Timer: 20
+        Tokens-To-Generate: 40000
+      3:
+        Price: 300
+        Timer: 20
+        Tokens-To-Generate: 50000
+      4:
+        Price: 400
+        Timer: 20
+        Tokens-To-Generate: 60000
+        Last-Rank: true

@@ -1,0 +1,44 @@
+PLAYER_DOES_NOT_EXIST:
+  - ''
+  - '&c[!] That player doesn''t exist'
+  - ''
+MINION_DOES_NOT_EXIST:
+  - ''
+  - '&c[!] That minion doesn''t exist'
+  - ''
+ADD_MINION_COMMAND:
+  - ''
+  - '&a[!] &7You have given a &f{minion} &7minion to &f{target}'
+  - ''
+ADD_TARGET_MINION_COMMAND:
+  - ''
+  - '&a[!] &7You have been given a &f{minion} &7minion'
+  - '&7(do /fadedminions to view your minions&7)'
+NO_TOKENS_TO_CLAIM:
+  - ''
+  - '&c[!] You don''t have any tokens to claim'
+  - ''
+TOKENS_CLAIM:
+  - ''
+  - '&a[!] &7You have claimed &f{tokens} &7tokens'
+  - ''
+BOUGHT_UPGRADE:
+  - ''
+  - '&a[!] &7You have bought a minion upgrade and your minion is now level {level}'
+  - '&7 for &f{tokens} &7tokens'
+NOT_ENOUGH_TOKENS:
+  - ''
+  - '&a[!] &7You don''t have enough tokens to buy this upgrade'
+  - ''
+NO_MINIONS_IN_THAT_TIER:
+  - ''
+  - '&c[!] You don''t have any minions in that tier'
+  - ''
+MINION_IS_LAST_RANK:
+  - ''
+  - '&c[!] &7The minion is already on the last rank'
+  - ''
+UPGRADE_ALL:
+  - ''
+  - '&a[!] &7You upgraded &b{amount} &7and you spent &b{tokens}'
+  - ''

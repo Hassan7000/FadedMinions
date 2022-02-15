@@ -1,0 +1,3 @@
+name: FadedMinions
+version: ${project.version}
+main: org.hassan.fadedminions.FadedMinions
